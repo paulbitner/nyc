@@ -25,3 +25,4 @@ checkpoints_*/
 *.bin
 data/
 logs/
+!requirements.txt
