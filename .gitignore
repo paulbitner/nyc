@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+
+# Environments
+venv/
+venv311/
+.env
+*.env
+
+# Data and model checkpoints
+checkpoints_*/
+*.pth
+*.pt
+*.h5
+*.ckpt
+*.safetensors
+*.bin
+*.json
+*.txt
+!metrics.txt  # keep metrics.txt if you want to version performance results
+
+# Cache / Logs
+.cache/
+logs/
+*.log
+
+# VSCode and system files
+.vscode/
+.DS_Store
+
+# Jupyter and notebooks (if any)
+.ipynb_checkpoints/
+*.ipynb
+
+# Dependencies
+*.egg-info/
+dist/
+build/
+
+# OS / Misc
+Thumbs.db
