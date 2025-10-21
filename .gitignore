@@ -22,7 +22,8 @@ checkpoints_*/
 *.bin
 *.json
 *.txt
-!metrics.txt  # keep metrics.txt if you want to version performance results
+!metrics.txt
+!requirements.txt   # keep requirements.txt for Docker builds
 
 # Cache / Logs
 .cache/
