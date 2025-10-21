@@ -1,0 +1,27 @@
+# git/docker noise
+.git
+.github
+.dockerignore
+Dockerfile
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# envs & local config
+venv/
+venv311/
+.env
+*.env
+
+# big artifacts
+checkpoints_*/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+data/
+logs/
