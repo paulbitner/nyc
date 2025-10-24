@@ -17,4 +17,4 @@ EXPOSE 80
 
 # ---- Choose ONE of the following commands ----
 # FastAPI (if your app object is at app.py -> app)
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "80"]
