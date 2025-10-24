@@ -12,9 +12,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Add source
 COPY . .
 
-# App listens on 8000
-EXPOSE 8000
+# App listens on 80
+EXPOSE 80
 
 # ---- Choose ONE of the following commands ----
 # FastAPI (if your app object is at app.py -> app)
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "80"]
